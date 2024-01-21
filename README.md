@@ -14,5 +14,8 @@ This repository contains a software package designed to predict various aspects 
    git clone https://github.com/SounakShome/Frost_Hacks.git
 ## Usage
 Run the main script:
-Bash:
-python main.py
+   Bash:
+     ```python main.py```
+    Install dependencies:
+      ```cd space-weather-prediction
+pip install -r requirements.txt```
