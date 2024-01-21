@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="text-white font-custom">
       <div className="grid grid-cols-2 divide-x h-screen">
-        <div className="flex justify-center items-center h-screen bg-[#C8E3DF]">
+        <div className="flex justify-center items-center bg-[#C8E3DF]">
           <Image src="/saturn.png" width={400} height={400} />
         </div>
         <div className="bg-[#559092]">
@@ -23,7 +23,7 @@ export default function Home() {
               <Link href="/news">
                 <li className="mr-4 mb-8 p-5 pt-3 text-base">News</li>
               </Link>
-              <Link href="/contact">
+              <Link href="/chat">
                 <li className="mr-4 mb-8 p-5 pt-3 text-base">Chat</li>
               </Link>
             </ul>
