@@ -23,7 +23,7 @@ export default function Home() {
               <Link href="/news">
                 <li className="mr-4 mb-8 p-5 pt-3 text-base">News</li>
               </Link>
-              <Link href="/chat">
+              <Link href="http://localhost:8501/">
                 <li className="mr-4 mb-8 p-5 pt-3 text-base">Chat</li>
               </Link>
             </ul>

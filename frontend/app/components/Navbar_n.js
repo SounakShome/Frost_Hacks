@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link href="/news">
                     <li className="mr-4 mb-8 px-5 pt-3 text-base">News</li>
                 </Link>
-                <Link href="/contact">
+                <Link href="http://localhost:8501/">
                     <li className="mr-4 mb-8 px-5 pt-3 text-base">Chat</li>
                 </Link>
             </ul>
