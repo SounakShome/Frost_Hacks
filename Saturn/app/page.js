@@ -28,9 +28,9 @@ export default function Home() {
               </Link>
             </ul>
           </nav>
-          <div className="mt-20 ml-20 mr-10">
+          <div className="mt-24 ml-20 mr-10">
             <h1 className="text-4xl font-medium">Welcome</h1>
-            <p className="pt-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati veritatis earum nihil molestiae natus, eum sunt illum maxime impedit nesciunt unde. Dolore accusantium atque ipsum fugiat incidunt reprehenderit cumque praesentium deserunt eius impedit nesciunt, est delectus illum nisi veniam repudiandae enim commodi molestias, necessitatibus maxime voluptatibus saepe. Alias veniam, deleniti laudantium officia minus, odit accusantium praesentium quam voluptatum velit ipsam vero voluptates neque impedit ad quos sunt. Dolorem minus quos quisquam accusantium expedita, iste soluta nesciunt iure. Dolorem qui expedita repudiandae, distinctio consequuntur hic commodi obcaecati voluptate fugit quae eveniet dolorum voluptatem ad asperiores nam cumque laborum esse natus.</p>
+            <p className="pt-3 text-justify">Welcome to Saturn, your celestial guide to space weather predictions! Embark on a cosmic journey as our cutting-edge algorithms analyze solar activity, magnetic fields, and celestial events to provide real-time forecasts. Witness the captivating dance of solar flares, cosmic rays, and geomagnetic storms. Whether you're a stargazer, astronaut, or simply curious about the cosmic ballet, Saturn is your trusted companion in unraveling the mysteries above. Fasten your seatbelt and prepare for a voyage into the unknown, where the wonders of space unfold. Explore the future of space weather forecasting, only at Saturn – your window to the cosmos!</p>
           </div>
         </div>
       </div>
