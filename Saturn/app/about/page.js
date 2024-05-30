@@ -25,8 +25,8 @@ const page = () => {
     },
     {
       name: "Sounak Shome",
-      description: "Electronics and Computer Engineering Undergrad at Vellore Institute of Technology, Chennai | Member of IEEE Computer Society and Team Aviators International.",
-      link: "https://www.linkedin.com/in/sounak-shome-b5b33b250/",
+      description: "Electronics and Computer Engineering Undergrad at VIT Chennai | Member @ IEEE RAS | Member of IEEE CompSoc | Avionics Engineer @ Team Aviators International.",
+      link: "https://www.linkedin.com/in/SounakShome",
       image: "https://media.licdn.com/dms/image/D5603AQGlLfdrBOIt-g/profile-displayphoto-shrink_400_400/0/1694006672658?e=1710979200&v=beta&t=RhU5dHM-bfEovXwfwGTu-alOb5x7qG_gEFqPXMIOHaU"
     },
     // Add more team members as needed
@@ -39,8 +39,8 @@ const page = () => {
           <h2 className="text-3xl text-white font-bold mb-4">About Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 min-h-fit">
             {teamMembers.map((member, index) => (
-              <Link href={`${member.link}`}>
-                <TeamMemberCard key={index} {...member} />
+              <Link href={`${member.link}`} key={index}>
+                <TeamMemberCard {...member} />
               </Link>
             ))}
           </div>

@@ -8,7 +8,6 @@ export async function GET(request) {
   try {
     const files = await fs.readdir('./newsdata');
     for (const item of files) {
-      console.log(item);
       content = await fs.readFile(`./newsdata/${item}`, { encoding: 'utf8' });
       blog.push(JSON.parse(content));
     }
